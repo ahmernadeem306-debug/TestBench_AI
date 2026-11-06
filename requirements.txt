@@ -1,0 +1,10 @@
+langgraph
+streamlit
+matplotlib
+pandas
+pypdf
+# Not required to run the dashboard itself (the supervisor node only emits
+# PyVISA code as a text string). Install this only if you copy the
+# generated script out and want to actually run it against real GPIB/
+# serial lab instruments.
+# pyvisa==1.14.1
